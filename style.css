@@ -1,0 +1,74 @@
+body {
+    background-image: url(http://j11.it/wp-content/uploads/2019/02/buste-personalizzate.jpg);
+    background-color: #3D3D3D;
+    font-family: 'Grenze', serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+}
+
+#logo {
+    width: 100px;
+    vertical-align: middle;
+}
+
+#logo_name {
+    text-transform: uppercase;
+    color: darkred;
+    font-size: 25px;
+}
+
+section  {
+    height: 48px;
+}
+
+
+.unread_note {
+    color: brown;
+    margin-bottom: auto;
+}
+
+#unread_count {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    padding: 2px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.item {
+    padding: 2px;
+}
+
+.item.read {
+    background-color: grey;
+    border-bottom: 1px solid black;
+}
+
+.item.unread{
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.star:after {
+  content: "\02605";
+}
+
+.email-text:before {
+  content: " - ";
+}
+
+.email-text:after {
+  content: "...";
+}
+
+footer {
+    text-align: center
+}
